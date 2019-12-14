@@ -1,0 +1,35 @@
+                      OLS Regression Results                      
+Dep. Variable:   ,total_spent_ln  ,  R-squared:         ,   0.339 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.336 
+Method:          ,Least Squares   ,  F-statistic:       ,   136.6 
+Date:            ,Sat, 30 Nov 2019,  Prob (F-statistic):,4.59e-322
+Time:            ,17:41:32        ,  Log-Likelihood:    , -2953.2 
+No. Observations:,  3750          ,  AIC:               ,   5936. 
+Df Residuals:    ,  3735          ,  BIC:               ,   6030. 
+Df Model:        ,    14          ,                     ,         
+Covariance Type: ,nonrobust       ,                     ,         
+        ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+const   ,    5.6067,    0.073,   77.178, 0.000,    5.464,    5.749
+age     ,   -0.0019,    0.001,   -3.800, 0.000,   -0.003,   -0.001
+card2_2 ,   -0.3043,    0.026,  -11.787, 0.000,   -0.355,   -0.254
+card2_3 ,   -0.2932,    0.026,  -11.442, 0.000,   -0.343,   -0.243
+card2_4 ,   -0.3185,    0.028,  -11.362, 0.000,   -0.373,   -0.264
+card_2  ,   -0.5756,    0.029,  -20.098, 0.000,   -0.632,   -0.519
+card_3  ,   -0.5897,    0.029,  -20.583, 0.000,   -0.646,   -0.534
+card_4  ,   -0.6588,    0.029,  -22.695, 0.000,   -0.716,   -0.602
+card_5  ,   -0.4866,    0.047,  -10.323, 0.000,   -0.579,   -0.394
+ed      ,   -0.0072,    0.003,   -2.361, 0.018,   -0.013,   -0.001
+equipten, 2.245e-05, 1.07e-05,    2.106, 0.035, 1.55e-06, 4.33e-05
+gender_1,   -0.0572,    0.018,   -3.265, 0.001,   -0.091,   -0.023
+jobcat  ,   -0.0157,    0.005,   -3.099, 0.002,   -0.026,   -0.006
+lninc   ,    0.3649,    0.012,   29.375, 0.000,    0.341,    0.389
+reason_2,    0.2726,    0.036,    7.677, 0.000,    0.203,    0.342
+Omnibus:      ,81.209,  Durbin-Watson:     ,   1.958
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  86.345
+Skew:         ,-0.357,  Prob(JB):          ,1.78e-19
+Kurtosis:     , 3.205,  Cond. No.          ,9.05e+03
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.05e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
